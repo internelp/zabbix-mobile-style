@@ -51,6 +51,9 @@ display: none;
 .header-title ul li {
     margin:4px;
 }
+.header-title ul {
+    position: static;
+}
 
 .multiselect {
     width: 100% !important;
@@ -75,5 +78,6 @@ div.footer:after {
     display: block;
     margin-bottom: 1rem;
 }
+
 
 }
