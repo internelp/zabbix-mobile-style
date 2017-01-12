@@ -1,0 +1,79 @@
+@media(max-width:768px) {
+
+body,
+.dashbrd-widget {
+    min-width: auto;
+}
+
+.cell,
+.article div.table,
+.article .table div.row {
+	display: block;
+}
+
+.dashbrd-widget div.body,
+header,
+.article form ,
+div.table-forms-container,
+.article table.list-table
+{
+	overflow-x: auto;
+}
+
+.article table.list-table {
+    display: block;
+}
+.nav {
+    min-width: 950px;
+}
+
+.article .server-name {
+	float:none;
+	text-align: center;
+    margin: 1rem auto;
+}
+
+.signin-container {
+    width: auto;
+}
+
+.dashbrd-widget{
+	margin: 0 0 10px;
+}
+
+.icon-maint::before, .icon-depend-up::before, .icon-depend-down::before, .icon-ackn::before {
+display: none;
+ }
+
+#scrollbar_cntr {
+    overflow-x: auto;
+}
+.header-title ul li {
+    margin:4px;
+}
+
+.multiselect {
+    width: 100% !important;
+}
+.hor-list {
+    margin:1rem 0;
+}
+.list-table tbody tr td {
+    text-align: center;
+}
+.table-forms-td-right input {
+    width: auto !important;
+}
+
+div.footer .grey:after {
+    content :" ";
+    clear:both;
+    display: block;
+}
+div.footer:after {
+    content:"手机版由千思网(qiansw.com)制作";
+    display: block;
+    margin-bottom: 1rem;
+}
+
+}
